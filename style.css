@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+  }
+  .carousel {
+    position: relative;
+    height: 100vh;
+  }
+
+.btn-info {
+    position: absolute;
+    top: 40%;
+    right: 30%; 
+  }
+
+.btn-dark {
+  position: absolute;
+  top: 40%;
+  right: 70%;
+  }
+.two {
+    position: absolute;
+    top: 20%;
+    right: 30%; 
+  }
+
+.one {
+  position: absolute;
+  top: 20%;
+  right: 70%;
+  }
+.converter {
+  padding-top: 5px;
+  background-color: lightgrey;
+}
+.left {
+  background-color:#ffb6c1;
+}
+
+.left input {
+  position: relative;
+  z-index: 1;
+}
+.right input {
+  position: relative;
+  z-index: 1;
+}
+.right {
+  background-color: #b6e6ff;
+}
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 100vh;
+  padding-top: 50px;
+}
+table { 
+  margin-top: 200px;
+  margin-left: 50px;
+  width: 100%;
+}
+
+h1 {
+  text-align:  center;
+  margin-top: 100px;
+  font-size: 38px;
+}
+input[type="range"] {
+  width: 200px;
+  height: 50px;
+}
+
+.text-area-hex {
+  padding-top: 170px;
+  padding-left: 50px;
+  height: 100vh;
+
+}
+
+.text-area-rgb {
+  padding-top: 170px;
+  padding-left: 50px;
+}
+.text-area-rgb p {
+  padding-top: 100px;
+  color: white;
+  position: absolute;
+}
+.text-area-rgb button {
+  position: relative;
+  left: 310px;
+  top: 100px;
+}
+
+.text-area-hex p {
+  color: white;
+  position: absolute;
+  padding-top: 50px;
+}
+
+.text-area-hex button {
+  z-index: 1;
+  position: relative;
+  left: 0px;
+  top: 170px;
+}
+
+.displayH{
+  margin-top: 140px;
+}
+
+/* .foote {
+  height: 80px;
+  padding-top: 10px;
+  border-top: 2px solid;
+  background-color: #f8f9fa;
+  color: #7c7c7d;
+} */
+
+.carousel-item .fas  {
+  position: absolute;
+  z-index: 5;
+  right: 45%;  
+  top: 70%;
+  transform: translate(-50%,-50%);
+}
+
+.text-area-hex .fas  {
+  position: absolute;
+  z-index: 5;
+  right: 97%;  
+  top: 90%;
+  /* transform: translate(-50%,-50%); */
+}
+
+
